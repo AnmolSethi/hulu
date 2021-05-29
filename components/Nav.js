@@ -1,7 +1,7 @@
 import requests from "../utils/requests";
 import { useRouter } from "next/router";
 
-function Nav() {
+export default function Nav() {
   const router = useRouter();
   return (
     <nav className="relative">
@@ -9,7 +9,7 @@ function Nav() {
         className="flex px-5 sm:px-14 whitespace-nowrap text-2xl 
         space-x-10 sm:space-x-20 overflow-x-scroll scrollbar-hide"
       >
-        {Object.entries(requests).map(([key, { title, url }]) => (
+        {Object.entries(requests).map(([key, { title }]) => (
           <h2
             key={key}
             onClick={() => router.push(`/?genre=${key}`)}
@@ -27,5 +27,3 @@ function Nav() {
     </nav>
   );
 }
-
-export default Nav;

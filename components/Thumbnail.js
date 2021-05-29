@@ -24,7 +24,10 @@ const Thumbnail = forwardRef(({ result }, ref) => {
         {/* Description */}
         <p className="truncate max-w-md">{result.overview}</p>
         {/* Movie Title */}
-        <h2 className="text-white text-2xl mt-1 transition-all duration-100 ease-in-out group-hover:font-bold">
+        <h2
+          className="text-white text-2xl mt-1 transition-all 
+          duration-100 ease-in-out group-hover:font-bold"
+        >
           {result.title || result.original_name}
         </h2>
         {/* Release Date and Likes */}

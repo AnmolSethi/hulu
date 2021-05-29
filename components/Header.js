@@ -24,8 +24,9 @@ function Header() {
         <HeaderItem title="ACCOUNT" Icon={UserIcon} />
       </div>
       <Image
-        className="object-contain"
         src="https://links.papareact.com/ua6"
+        className="object-contain"
+        alt="hulu logo"
         width={200}
         height={100}
       />
