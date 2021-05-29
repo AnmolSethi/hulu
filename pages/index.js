@@ -9,7 +9,11 @@ export default function Home({ results }) {
     <div>
       <Head>
         <title>Hulu</title>
-        <meta name="description" content="hulu by next app" />
+        <meta name="description" content="hulu app built by Anmol Sethi" />
+        <meta
+          name="keywords"
+          content="disney plus, disney premium, netflix, hulu, online movies, movie streaming"
+        />
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
