@@ -8,7 +8,7 @@ export default function Home({ results }) {
   return (
     <div>
       <Head>
-        <title>Hulu</title>
+        <title>Hulu by Anmol Sethi</title>
         <meta name="description" content="hulu app built by Anmol Sethi" />
         <meta
           name="keywords"
