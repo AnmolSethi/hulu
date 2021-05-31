@@ -9,7 +9,10 @@ export default function Home({ results }) {
     <div>
       <Head>
         <title>Hulu by Anmol Sethi</title>
-        <meta name="description" content="hulu app built by Anmol Sethi" />
+        <meta
+          name="description"
+          content="This is a Hulu clone built using NextJS and Tailwind CSS"
+        />
         <meta
           name="keywords"
           content="disney plus, disney premium, netflix, hulu, online movies, movie streaming"
